@@ -1,4 +1,4 @@
-![Texto alternativo](./assets/imagem.png)
+![Imagem do projeto](./src/assets/imagem.png)
 
 # React + TypeScript + Vite
 
