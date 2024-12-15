@@ -1,0 +1,80 @@
+/* Container principal */
+.container-uso {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 80%;
+  margin: 20px auto;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.botao-voltar {
+  margin: 20px 0 0 20px;
+  font-size: 16px;
+  padding: 5px 8px;
+  border: none;
+  background-color: #450b53;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.botao-voltar:hover {
+  background-color: #6e1485;
+}
+
+/* Títulos principais */
+h1,
+h2 {
+  color: #333;
+}
+
+/* Estilo para listas */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Título de cada seção */
+.section-title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Passos dentro das seções */
+.steps {
+  margin-left: 20px;
+}
+
+/* Caixa de notas */
+.note {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-left: 4px solid #ffcc00;
+  margin-bottom: 15px;
+}
+
+/* Caixa de exemplo */
+.example {
+  background-color: #e7f4e7;
+  padding: 15px;
+  border: 1px solid #d0e4d0;
+  margin-bottom: 15px;
+}
+
+/* Estilo de links */
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

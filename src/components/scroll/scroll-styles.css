@@ -1,0 +1,40 @@
+/* From Uiverse.io by ArturCodeCraft */
+
+.main__scroll-text {
+  color: #fff;
+}
+
+.main__action {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__scroll-box {
+  width: 100px;
+  text-align: center;
+}
+
+.main__action .main__scroll-box {
+  animation: scroll-down 3s infinite;
+}
+
+/* Animate scroll icon */
+@keyframes scroll-down {
+  0%,
+  100% {
+    transform: translateY(0rem);
+    opacity: 1;
+  }
+
+  35% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+
+  70% {
+    transform: translateY(-1rem);
+    opacity: 0;
+  }
+}
